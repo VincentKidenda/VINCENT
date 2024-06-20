@@ -1,0 +1,31 @@
+.landing-page{
+    background-color: rgb(36, 33, 33);
+    color: rgb(235, 139, 23);
+}
+p {
+    border: 5px solid rgb(199, 203, 209);
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    font-style: italic;
+    flex-direction: row-reverse;
+    font-weight: bolder;
+}
+
+.navigation{
+    display:flex;
+    background-color: black;
+    overflow-x: scroll;
+}
+
+.navigation > li{
+    color: white;
+   text-transform: uppercase;
+   text-wrap: nowrap;
+   list-style: none;
+   margin-right: 10px;
+}
+
+.navigation > li:hover{
+    background-color: darkgreen;
+}
